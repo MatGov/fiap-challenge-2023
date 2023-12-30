@@ -1,0 +1,28 @@
+.participantes {
+    margin: 3em 5em;
+}
+
+.titulo-part {
+    font-size: 28px;
+}
+
+.papel {
+    margin: 0 5em 3em 5em ;
+}
+
+.papel__titulo {
+    font-size: 28px;
+}
+
+.tecn {
+    margin: 0 5em 3em 5em;
+}
+
+.titulo__tecn {
+    font-size: 24px;
+}
+
+.texto__tecn {
+    margin: .5em 0;
+    text-align: justify;
+}

@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gray: #757780ff;
+  --yellow-green: #84c318ff;
+  --chocolate-cosmos: #590925ff;
+  --honeydew: #f3fcf0ff;
+  --black-olive: #1f271bff;
+  --font-logo: 'Prompt', sans-serif;
+  --font-principal: 'Open Sans', sans-serif;
+  --font-titulo: 'Lobster', cursive;
+  --font-conclusao: 'Dosis', sans-serif;
+}
+
+.header {
+  background-color: var(--black-olive);
+  padding: 2em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 1em;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--font-logo);
+  font-size: 30px;
+  color: var(--honeydew);
+}
+
+.botoes {
+  font-size: 20px;
+  margin: 1em;
+  padding: 1em;
+  color: var(--honeydew);
+  text-decoration: none;
+  font-family: var(--font-principal);
+}
+
+.botoes:hover {
+  background-color: var(--gray);
+  color: var(--chocolate-cosmos);
+}
+
+.texto__pitch {
+  font-family: var(--font-principal);
+  font-size: 18x;
+}
+
+.titulo {
+  font-size: 30px;
+}
+
+.texto {
+  margin: 2em 0;
+}
+
+.botao {
+  background-color: var(--yellow-green);
+  color: var(--honeydew);
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: var(--black-olive);
+}
+
+.problematica {
+  font-family: var(--font-principal);
+  color: var(--honeydew);
+  background-color: var(--black-olive);
+}
+
+.problematica2 {
+  font-family: var(--font-principal);
+  color: black;
+  background-color: var(--honeydew);
+}
+
+.problematica-funcionalidades {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+  align-items: center;
+  font-family: var(--font-principal);
+  color: var(--honeydew);
+  background-color: var(--black-olive);
+}
+
+.pitch {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+  align-items: center;
+  background-color: var(--honeydew);
+}
+
+.box {
+  margin: 0 30em;
+  padding: 4em 0;
+}
+
+.titulo__prob {
+  font-size: 30px;
+  padding: 0 0 0.5em 0;
+}
+
+.texto__prob {
+  font-size: 15px;
+  padding: 0.5em 2em;
+  line-height: 150%;
+}
+
+.image-feed {
+  padding: 30px;
+  max-height: 30em;
+}
+
+.image-feed2 {
+  padding: 30px;
+  max-height: 20em;
+}
+
+.subtitle-feed2 {
+  color: #000;
+}
+
+.texto-problematica {
+  padding: 1em;
+}
+
+.titulo__prob {
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+.texto__prob {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.titulo_funcionalidades {
+  font-family: var(--font-titulo);
+  padding: 1em;
+}
+
+.conclusao {
+  font-family: var(--font-conclusao);
+}
+
+.text-reset {
+  text-decoration: none;
+}
+
+.btn-index {
+  background-color: var(--verde-fundo);
+  color: var(--branco);
+}
+
+.btn {
+  border-color: var(--branco);
+  color: var(--branco);
+}
+
+.btn:hover {
+  border-color: var(--branco);
+  color: var(--verde-fundo);
+  background-color: var(--branco);
+}
+
+.btn-index:hover {
+  border-color: var(--verde-fundo);
+  color: var(--verde-fundo);
+  box-shadow: 0 0 10px var(--verde-fundo);
+}
+
+input[type='text']:focus {
+  box-shadow: 0 0 10px var(--verde-fundo);
+}
+
+input.input-email:focus {
+  box-shadow: 0 0 10px var(--cor-fundo);
+}
+
+input.input-email-index:focus {
+  box-shadow: 0 0 10px var(--verde-fundo);
+}
+
+input.input-email-index {
+  background-color: #ebecee;
+}
+
+input.input-email {
+  background-color: #ebecee;
+}
+
+input.input-telefone-index:focus {
+  box-shadow: 0 0 10px var(--verde-fundo);
+}
+
+input.input-telefone-index {
+  background-color: #ebecee;
+}
+
+input.input-telefone {
+  background-color: #ebecee;
+}
+
+input.input-telefone:focus {
+  box-shadow: 0 0 10px var(--cor-fundo);
+}
+
+.footer {
+  font-size: 20px;
+  font-family: var(--font-principal);
+  padding: 2em;
+  background-color: var(--honeydew);
+}
+
+.footer2 {
+  font-family: var(--font-principal);
+  padding: 2em;
+  color: var(--honeydew);
+  background-color: var(--black-olive);
+}
